@@ -75,9 +75,9 @@ public class User {
     }
 
 
-    public void setPasswordHash(String passwordHash) {
-        this.passwordHash = passwordHash;
-    }
+    //public void setPasswordHash(String passwordHash) {
+//        this.passwordHash = passwordHash;
+//    }
 
     public String getPhoneNumber() {
         return phoneNumber;
@@ -102,6 +102,11 @@ public class User {
     public void setUpdatedAt(Instant updatedAt) {
         this.updatedAt = updatedAt;
     }
+
+    public String getPasswordHash() {
+        return this.passwordHash;
+    }
+
 }
 
 
